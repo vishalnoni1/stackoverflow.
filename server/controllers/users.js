@@ -14,7 +14,7 @@ export const getAllUsers = async (req, res) => {
         _id: user._id,
         name: user.name,
         about:user.about,
-        tags: user.tags,
+        tags: user.tags,    
         joinedOn: user.joinedOn,
       });
     });
